@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.card-title {
+    @apply font-semibold text-3xl py-2;
+}
+
+.card {
+    @apply w-full shadow-lg p-4;
+}
